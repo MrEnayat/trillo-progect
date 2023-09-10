@@ -250,9 +250,16 @@ body {
 }
 .overview__stars {
   margin-right: auto;
+  display: flex;
 }
 .overview__icon-star, .overview__icon-location {
   width: 1.75rem;
   height: 1.75rem;
   fill: var(--color-primary);
+}
+.btn-inline {
+  border: none;
+  color: var(--color-primary);
+  font-size: inherit;
+  border: 1px solid currentColor;
 }/*# sourceMappingURL=main.css.map */

@@ -218,6 +218,7 @@ padding: 2.5rem;
 
   &__stars {
    margin-right: auto;
+   display: flex;
   }
 
   &__icon-star,
@@ -240,5 +241,23 @@ padding: 2.5rem;
 
   &__rating-count {
 
+  }
+}
+
+.btn-inline {
+  border: none;
+  color: var(--color-primary);
+  font-size: inherit;
+  border: 1px solid currentColor;
+  padding-bottom: 2px;
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+  &:hover {
+    color: var(--color-Grey-dark-1);
+  }
+
+  &:focus {
+    outline: none;
   }
 }
