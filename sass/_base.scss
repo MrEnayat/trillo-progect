@@ -23,6 +23,14 @@ COLORS
   --shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
 }
 
+$bt-largest: 75em;//1200
+$bt-large: 68.75em;//1100px
+$bt-medium: 56.25em;//900px /16
+$bt-small: 37.5em;//600px /16
+$bt-smallest: 31.25em;//500px /16
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -37,6 +45,10 @@ COLORS
 html {
   box-sizing: border-box;
   font-size: 64.5%; // 1rem=10px, 10px/16px = 62.5%
+
+  @media only screen and (max-width: $bt-large) {
+    font-size: 50%;
+  }
 }
 
 body {
